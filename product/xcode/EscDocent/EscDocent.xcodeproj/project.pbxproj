@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46216F0A19EDA17E002F1E8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46216F0919EDA17E002F1E8C /* SystemConfiguration.framework */; };
+		46D9DF821A02938F0075784C /* libesc-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D9DF811A02937E0075784C /* libesc-ios.a */; };
+		9CC318AD18D8A155009AD0E9 /* GameDetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CC318AC18D8A155009AD0E9 /* GameDetailViewController.mm */; };
+		9CC318B018D8A2E7009AD0E9 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CC318AF18D8A2E7009AD0E9 /* GameViewController.mm */; };
+		9CC318C218D8C632009AD0E9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC318C118D8C632009AD0E9 /* libz.1.2.5.dylib */; };
+		9CC318E618DA2315009AD0E9 /* GameModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CC318E518DA2315009AD0E9 /* GameModel.mm */; };
+		9CF631D618D7971800BA2170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF631D518D7971800BA2170 /* Foundation.framework */; };
+		9CF631D818D7971800BA2170 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF631D718D7971800BA2170 /* CoreGraphics.framework */; };
+		9CF631DA18D7971800BA2170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF631D918D7971800BA2170 /* UIKit.framework */; };
+		9CF631E018D7971800BA2170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CF631DE18D7971800BA2170 /* InfoPlist.strings */; };
+		9CF631E218D7971800BA2170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF631E118D7971800BA2170 /* main.m */; };
+		9CF631E618D7971800BA2170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF631E518D7971800BA2170 /* AppDelegate.m */; };
+		9CF631F118D7971800BA2170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF631F018D7971800BA2170 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46216EE519ED8D7F002F1E8C /* libesc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libesc-ios.a"; path = "../../../../../../Desktop/ESC/lib/esc-ios8-static-libs/device/libesc-ios.a"; sourceTree = "<group>"; };
+		46216F0919EDA17E002F1E8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		46AAED7919EEF0EA000EF77F /* libesc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libesc-ios.a"; sourceTree = "<group>"; };
+		46B441AC19E6D95300E6F8F6 /* libesc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libesc-ios.a"; path = "../../../../../../Desktop/esc-ios8-static-libs/device/libesc-ios.a"; sourceTree = "<group>"; };
+		46D9DF811A02937E0075784C /* libesc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libesc-ios.a"; sourceTree = "<group>"; };
+		9C6B95871917F07600553DE1 /* libesc-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libesc-ios.a"; path = "EscDocent/libesc-ios.a"; sourceTree = "<group>"; };
+		9CC318AB18D8A155009AD0E9 /* GameDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDetailViewController.h; sourceTree = "<group>"; };
+		9CC318AC18D8A155009AD0E9 /* GameDetailViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameDetailViewController.mm; sourceTree = "<group>"; };
+		9CC318AE18D8A2E7009AD0E9 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9CC318AF18D8A2E7009AD0E9 /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		9CC318C118D8C632009AD0E9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		9CC318D118D8EB0C009AD0E9 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = ../../../source/Config.h; sourceTree = "<group>"; };
+		9CC318D218D8EB0C009AD0E9 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = ../../../source/Logger.h; sourceTree = "<group>"; };
+		9CC318D318D8EB0C009AD0E9 /* PluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginInterface.h; path = ../../../source/PluginInterface.h; sourceTree = "<group>"; };
+		9CC318D418D8EB0C009AD0E9 /* XmppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmppClient.h; path = ../../../source/XmppClient.h; sourceTree = "<group>"; };
+		9CC318D518D8EB0C009AD0E9 /* AccountRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountRegistration.h; path = ../../../source/AccountRegistration.h; sourceTree = "<group>"; };
+		9CC318D618D8EB0C009AD0E9 /* XmppListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmppListener.h; path = ../../../source/XmppListener.h; sourceTree = "<group>"; };
+		9CC318E418DA2315009AD0E9 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameModel.h; path = EscDocent/GameModel.h; sourceTree = SOURCE_ROOT; };
+		9CC318E518DA2315009AD0E9 /* GameModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameModel.mm; path = EscDocent/GameModel.mm; sourceTree = SOURCE_ROOT; };
+		9CF631D218D7971800BA2170 /* EscDocent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscDocent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF631D518D7971800BA2170 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CF631D718D7971800BA2170 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CF631D918D7971800BA2170 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CF631DD18D7971800BA2170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF631DF18D7971800BA2170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CF631E118D7971800BA2170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CF631E318D7971800BA2170 /* EscDocent.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EscDocent.pch; path = ../EscDocent/EscDocent.pch; sourceTree = "<group>"; };
+		9CF631E418D7971800BA2170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CF631E518D7971800BA2170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CF631E818D7971800BA2170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9CF631EB18D7971800BA2170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9CF631F018D7971800BA2170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CF631F718D7971800BA2170 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9CF631FF18D7971800BA2170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF6320118D7971800BA2170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CF6320318D7971800BA2170 /* ESCDocentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCDocentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CF631CF18D7971800BA2170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D9DF821A02938F0075784C /* libesc-ios.a in Frameworks */,
+				46216F0A19EDA17E002F1E8C /* SystemConfiguration.framework in Frameworks */,
+				9CC318C218D8C632009AD0E9 /* libz.1.2.5.dylib in Frameworks */,
+				9CF631D818D7971800BA2170 /* CoreGraphics.framework in Frameworks */,
+				9CF631DA18D7971800BA2170 /* UIKit.framework in Frameworks */,
+				9CF631D618D7971800BA2170 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AAED7819EEF0EA000EF77F /* device */ = {
+			isa = PBXGroup;
+			children = (
+				46AAED7919EEF0EA000EF77F /* libesc-ios.a */,
+			);
+			name = device;
+			path = "../../../../../../Desktop/ESC/lib/esc-ios8-static-libs/device";
+			sourceTree = "<group>";
+		};
+		46D9DF801A02937E0075784C /* device */ = {
+			isa = PBXGroup;
+			children = (
+				46D9DF811A02937E0075784C /* libesc-ios.a */,
+			);
+			name = device;
+			path = "../../../../../../Desktop/ESC/lib/esc-ios8-static-libs/device";
+			sourceTree = "<group>";
+		};
+		9CC318AA18D8A01D009AD0E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CC318AE18D8A2E7009AD0E9 /* GameViewController.h */,
+				9CC318AF18D8A2E7009AD0E9 /* GameViewController.mm */,
+				9CC318AB18D8A155009AD0E9 /* GameDetailViewController.h */,
+				9CC318AC18D8A155009AD0E9 /* GameDetailViewController.mm */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9CC318D018D8EAE3009AD0E9 /* EscPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				9CC318D118D8EB0C009AD0E9 /* Config.h */,
+				9CC318D218D8EB0C009AD0E9 /* Logger.h */,
+				9CC318D318D8EB0C009AD0E9 /* PluginInterface.h */,
+				9CC318D418D8EB0C009AD0E9 /* XmppClient.h */,
+				9CC318D518D8EB0C009AD0E9 /* AccountRegistration.h */,
+				9CC318D618D8EB0C009AD0E9 /* XmppListener.h */,
+			);
+			name = EscPlatform;
+			sourceTree = "<group>";
+		};
+		9CC318E718DA231C009AD0E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CC318E418DA2315009AD0E9 /* GameModel.h */,
+				9CC318E518DA2315009AD0E9 /* GameModel.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9CF631C918D7971800BA2170 = {
+			isa = PBXGroup;
+			children = (
+				9CF631DB18D7971800BA2170 /* ESCDocent */,
+				9CF631FD18D7971800BA2170 /* ESCDocentTests */,
+				9CF631D418D7971800BA2170 /* Frameworks */,
+				9CF631D318D7971800BA2170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF631D318D7971800BA2170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF631D218D7971800BA2170 /* EscDocent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF631D418D7971800BA2170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D9DF801A02937E0075784C /* device */,
+				46AAED7819EEF0EA000EF77F /* device */,
+				46216F0919EDA17E002F1E8C /* SystemConfiguration.framework */,
+				46216EE519ED8D7F002F1E8C /* libesc-ios.a */,
+				46B441AC19E6D95300E6F8F6 /* libesc-ios.a */,
+				9C6B95871917F07600553DE1 /* libesc-ios.a */,
+				9CC318C118D8C632009AD0E9 /* libz.1.2.5.dylib */,
+				9CF631D518D7971800BA2170 /* Foundation.framework */,
+				9CF631D718D7971800BA2170 /* CoreGraphics.framework */,
+				9CF631D918D7971800BA2170 /* UIKit.framework */,
+				9CF631F718D7971800BA2170 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CF631DB18D7971800BA2170 /* ESCDocent */ = {
+			isa = PBXGroup;
+			children = (
+				9CC318D018D8EAE3009AD0E9 /* EscPlatform */,
+				9CC318E718DA231C009AD0E9 /* Model */,
+				9CC318AA18D8A01D009AD0E9 /* Controller */,
+				9CF631E418D7971800BA2170 /* AppDelegate.h */,
+				9CF631E518D7971800BA2170 /* AppDelegate.m */,
+				9CF631E718D7971800BA2170 /* Main_iPhone.storyboard */,
+				9CF631EA18D7971800BA2170 /* Main_iPad.storyboard */,
+				9CF631F018D7971800BA2170 /* Images.xcassets */,
+				9CF631DC18D7971800BA2170 /* Supporting Files */,
+			);
+			path = ESCDocent;
+			sourceTree = "<group>";
+		};
+		9CF631DC18D7971800BA2170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF631DD18D7971800BA2170 /* Info.plist */,
+				9CF631DE18D7971800BA2170 /* InfoPlist.strings */,
+				9CF631E118D7971800BA2170 /* main.m */,
+				9CF631E318D7971800BA2170 /* EscDocent.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CF631FD18D7971800BA2170 /* ESCDocentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6320318D7971800BA2170 /* ESCDocentTests.m */,
+				9CF631FE18D7971800BA2170 /* Supporting Files */,
+			);
+			path = ESCDocentTests;
+			sourceTree = "<group>";
+		};
+		9CF631FE18D7971800BA2170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF631FF18D7971800BA2170 /* Info.plist */,
+				9CF6320018D7971800BA2170 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CF631D118D7971800BA2170 /* EscDocent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF6320718D7971800BA2170 /* Build configuration list for PBXNativeTarget "EscDocent" */;
+			buildPhases = (
+				9CF631CE18D7971800BA2170 /* Sources */,
+				9CF631CF18D7971800BA2170 /* Frameworks */,
+				9CF631D018D7971800BA2170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EscDocent;
+			productName = ESCDocent;
+			productReference = 9CF631D218D7971800BA2170 /* EscDocent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CF631CA18D7971800BA2170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ESI;
+			};
+			buildConfigurationList = 9CF631CD18D7971800BA2170 /* Build configuration list for PBXProject "EscDocent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CF631C918D7971800BA2170;
+			productRefGroup = 9CF631D318D7971800BA2170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CF631D118D7971800BA2170 /* EscDocent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CF631D018D7971800BA2170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF631F118D7971800BA2170 /* Images.xcassets in Resources */,
+				9CF631E018D7971800BA2170 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF631CE18D7971800BA2170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC318B018D8A2E7009AD0E9 /* GameViewController.mm in Sources */,
+				9CC318E618DA2315009AD0E9 /* GameModel.mm in Sources */,
+				9CC318AD18D8A155009AD0E9 /* GameDetailViewController.mm in Sources */,
+				9CF631E618D7971800BA2170 /* AppDelegate.m in Sources */,
+				9CF631E218D7971800BA2170 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CF631DE18D7971800BA2170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF631DF18D7971800BA2170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CF631E718D7971800BA2170 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF631E818D7971800BA2170 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9CF631EA18D7971800BA2170 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF631EB18D7971800BA2170 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9CF6320018D7971800BA2170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF6320118D7971800BA2170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CF6320518D7971800BA2170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CF6320618D7971800BA2170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CF6320818D7971800BA2170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ESCDocent/EscDocent.pch;
+				INFOPLIST_FILE = ESCDocent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EscDocent",
+					"/Users/alexnguyen/Desktop/esc-ios8-static-libs/device/",
+					"/Users/alexnguyen/Desktop/ESC/lib/esc-ios8-static-libs/device",
+				);
+				PRODUCT_NAME = EscDocent;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CF6320918D7971800BA2170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ESCDocent/EscDocent.pch;
+				INFOPLIST_FILE = ESCDocent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EscDocent",
+					"/Users/alexnguyen/Desktop/esc-ios8-static-libs/device/",
+					"/Users/alexnguyen/Desktop/ESC/lib/esc-ios8-static-libs/device",
+				);
+				PRODUCT_NAME = EscDocent;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CF631CD18D7971800BA2170 /* Build configuration list for PBXProject "EscDocent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF6320518D7971800BA2170 /* Debug */,
+				9CF6320618D7971800BA2170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF6320718D7971800BA2170 /* Build configuration list for PBXNativeTarget "EscDocent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF6320818D7971800BA2170 /* Debug */,
+				9CF6320918D7971800BA2170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CF631CA18D7971800BA2170 /* Project object */;
+}

@@ -1,0 +1,1 @@
+*	*	*	*	*	/usr/bin/python /Users/Caleb/Development/ControlGroup/esc-platform/product/tools/plist/games_plist_sync.py >>/tmp/cron-python.log 2>&1

@@ -1,0 +1,21 @@
+/**
+ * @mainpage ESC Platform
+ *   <p>This documentation covers the communication platform architecture used for the Unity3D-based game system designed for ESI.</p>
+ *   <h2>Development &amp; Features</h2><hr/>
+ *   	<p>The project is currently being developed for deployment to Apple OSX 10.9 and iOS 7. Much of the code is written in C# (for Mono) with some aspects authored in C, Objective-C, and C++.</p>
+ *   	<p>The functionality covered by this software includes:</p>
+ *   	<ul>
+ *   		<li>Automatic state synchronization via direct bi-directional OSC messaging</li>
+ *   		<li>Presence notification and messaging passing via XMPP</li>
+ *   		<li>ejabberd server environment</li>
+ *   	</ul>
+ *   <h2>Software Dependencies</h2><hr/>
+ *   	<p>This project relies upon a few dependencies, among them:</p>
+ *   	<ul>
+ *   		<li><a href="http://unity3d.com">Unity3d</a> - a fully-featured gaming platform</li>
+ *   		<li><a href="http://www.process-one.net/en/ejabberd/downloads">ejabberd</a> - a highly scalable XMPP server</li>
+ *   		<li><a href="http://camaya.net/gloox/">Gloox 1.0.9</a> - a portable XMPP engine</li>
+ *   		<li><a href="http://code.google.com/p/googletest/">GTest</a> a unit testing framework from Google</li>
+ *   	</ul>
+ */
+

@@ -1,0 +1,2532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5A8B9318DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9418DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9518DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9618DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9718DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9818DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9C18DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9E18DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8B9F18DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8BA018DE17CA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8BA118DE17CA006D688F /* AccountEraser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5A8B9218DE17CA006D688F /* AccountEraser.h */; };
+		3C5A8BA918DE3075006D688F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8BA818DE3075006D688F /* main.cpp */; };
+		3C5A8BAB18DE3075006D688F /* AccountCreationTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C5A8BAA18DE3075006D688F /* AccountCreationTest.1 */; };
+		3C5A8BAF18DE33DA006D688F /* AccountEraser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */; };
+		3C5A8BB018DE33DA006D688F /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		3C5A8BB118DE33DA006D688F /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		3C5A8BB218DE33DA006D688F /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		3C5A8BB318DE33FC006D688F /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		3CF5AC6019E4873D00343A15 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472F018C58417006C9904 /* libgloox.a */; };
+		4121D9A618EDD7640048DC21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4121D9A518EDD7640048DC21 /* CoreGraphics.framework */; };
+		41254DEF18D9DC6700ABFBD1 /* PdKeychainBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = 41254DEB18D9DC6700ABFBD1 /* PdKeychainBindings.h */; };
+		41254DF118D9DC6700ABFBD1 /* PdKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 41254DEC18D9DC6700ABFBD1 /* PdKeychainBindings.m */; };
+		41254DF218D9DC6700ABFBD1 /* PdKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 41254DEC18D9DC6700ABFBD1 /* PdKeychainBindings.m */; };
+		41254DF318D9DC6700ABFBD1 /* PdKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 41254DEC18D9DC6700ABFBD1 /* PdKeychainBindings.m */; };
+		41254DFE18D9DC6700ABFBD1 /* PdKeychainBindingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 41254DED18D9DC6700ABFBD1 /* PdKeychainBindingsController.h */; };
+		41254E0018D9DC6700ABFBD1 /* PdKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41254DEE18D9DC6700ABFBD1 /* PdKeychainBindingsController.m */; };
+		41254E0118D9DC6700ABFBD1 /* PdKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41254DEE18D9DC6700ABFBD1 /* PdKeychainBindingsController.m */; };
+		41254E0218D9DC6700ABFBD1 /* PdKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41254DEE18D9DC6700ABFBD1 /* PdKeychainBindingsController.m */; };
+		41625B9918CFBEC000A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9818CFBEC000A54C1B /* main.cpp */; };
+		41625B9B18CFBEC000A54C1B /* Osc_Listener.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625B9A18CFBEC000A54C1B /* Osc_Listener.1 */; };
+		41625BA618CFBECC00A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BA518CFBECC00A54C1B /* main.cpp */; };
+		41625BA818CFBECC00A54C1B /* Osc_Sender.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BA718CFBECC00A54C1B /* Osc_Sender.1 */; };
+		41625BB318CFBEE700A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BB218CFBEE700A54C1B /* main.cpp */; };
+		41625BB518CFBEE700A54C1B /* OscPerformanceTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BB418CFBEE700A54C1B /* OscPerformanceTest.1 */; };
+		41625BC018CFBEF300A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BBF18CFBEF300A54C1B /* main.cpp */; };
+		41625BC218CFBEF300A54C1B /* XmppPerformanceTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BC118CFBEF300A54C1B /* XmppPerformanceTest.1 */; };
+		41625BCD18CFBF0100A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BCC18CFBF0100A54C1B /* main.cpp */; };
+		41625BCF18CFBF0100A54C1B /* OscEchoClient.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BCE18CFBF0100A54C1B /* OscEchoClient.1 */; };
+		41625BDA18CFBF0F00A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BD918CFBF0F00A54C1B /* main.cpp */; };
+		41625BDC18CFBF0F00A54C1B /* XmppEchoClient.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BDB18CFBF0F00A54C1B /* XmppEchoClient.1 */; };
+		41625BE718CFBF2700A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BE618CFBF2700A54C1B /* main.cpp */; };
+		41625BE918CFBF2700A54C1B /* MockForController.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BE818CFBF2700A54C1B /* MockForController.1 */; };
+		41625BF418CFBF3200A54C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625BF318CFBF3200A54C1B /* main.cpp */; };
+		41625BF618CFBF3200A54C1B /* MockForGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41625BF518CFBF3200A54C1B /* MockForGame.1 */; };
+		41625BFA18CFC06900A54C1B /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */; };
+		41625BFB18CFC06900A54C1B /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */; };
+		41625BFC18CFC06900A54C1B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7918CFBE7700A54C1B /* UdpSocket.cpp */; };
+		41625BFD18CFC06900A54C1B /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */; };
+		41625BFE18CFC06900A54C1B /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */; };
+		41625BFF18CFC06900A54C1B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */; };
+		41625C0018CFC06900A54C1B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8718CFBE7700A54C1B /* OscTypes.cpp */; };
+		41625C0118CFC06900A54C1B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8A18CFBE7700A54C1B /* OscBundle.cpp */; };
+		41625C0218CFC06900A54C1B /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8C18CFBE7700A54C1B /* OscListener.cpp */; };
+		41625C0318CFC06900A54C1B /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8E18CFBE7700A54C1B /* OscMessage.cpp */; };
+		41625C0418CFC06900A54C1B /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9018CFBE7700A54C1B /* OscSender.cpp */; };
+		41625C0918CFC08800A54C1B /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41625C0A18CFC08800A54C1B /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41625C1A18CFC40D00A54C1B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4176AB5918CE1BC600711515 /* IOKit.framework */; };
+		41625C1B18CFC42500A54C1B /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		41625C1C18CFC43E00A54C1B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4176AB5918CE1BC600711515 /* IOKit.framework */; };
+		41625C1D18CFC46800A54C1B /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */; };
+		41625C1E18CFC46800A54C1B /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */; };
+		41625C1F18CFC46800A54C1B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7918CFBE7700A54C1B /* UdpSocket.cpp */; };
+		41625C2018CFC46800A54C1B /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */; };
+		41625C2118CFC46800A54C1B /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */; };
+		41625C2218CFC46800A54C1B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */; };
+		41625C2318CFC46800A54C1B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8718CFBE7700A54C1B /* OscTypes.cpp */; };
+		41625C2418CFC46800A54C1B /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		41625C2518CFC46800A54C1B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8A18CFBE7700A54C1B /* OscBundle.cpp */; };
+		41625C2618CFC46800A54C1B /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8C18CFBE7700A54C1B /* OscListener.cpp */; };
+		41625C2718CFC46800A54C1B /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8E18CFBE7700A54C1B /* OscMessage.cpp */; };
+		41625C2818CFC46800A54C1B /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9018CFBE7700A54C1B /* OscSender.cpp */; };
+		41625C2918CFC46800A54C1B /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41625C2A18CFC46800A54C1B /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41625C2B18CFC51B00A54C1B /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41625C2C18CFC51B00A54C1B /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41625C2D18CFC54800A54C1B /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		41625C2E18CFC55300A54C1B /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		41625C2F18CFC55300A54C1B /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41625C3018CFC55300A54C1B /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41625C3118CFC59000A54C1B /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */; };
+		41625C3218CFC59000A54C1B /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */; };
+		41625C3318CFC59000A54C1B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7918CFBE7700A54C1B /* UdpSocket.cpp */; };
+		41625C3418CFC59000A54C1B /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */; };
+		41625C3518CFC59000A54C1B /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */; };
+		41625C3618CFC59000A54C1B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */; };
+		41625C3718CFC59000A54C1B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8718CFBE7700A54C1B /* OscTypes.cpp */; };
+		41625C3818CFC59000A54C1B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8A18CFBE7700A54C1B /* OscBundle.cpp */; };
+		41625C3918CFC59000A54C1B /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8C18CFBE7700A54C1B /* OscListener.cpp */; };
+		41625C3A18CFC59000A54C1B /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8E18CFBE7700A54C1B /* OscMessage.cpp */; };
+		41625C3B18CFC59000A54C1B /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9018CFBE7700A54C1B /* OscSender.cpp */; };
+		41625C3C18CFC61F00A54C1B /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */; };
+		41625C3D18CFC61F00A54C1B /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */; };
+		41625C3E18CFC61F00A54C1B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7918CFBE7700A54C1B /* UdpSocket.cpp */; };
+		41625C3F18CFC61F00A54C1B /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */; };
+		41625C4018CFC61F00A54C1B /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */; };
+		41625C4118CFC61F00A54C1B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */; };
+		41625C4218CFC61F00A54C1B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8718CFBE7700A54C1B /* OscTypes.cpp */; };
+		41625C4318CFC61F00A54C1B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8A18CFBE7700A54C1B /* OscBundle.cpp */; };
+		41625C4418CFC61F00A54C1B /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8C18CFBE7700A54C1B /* OscListener.cpp */; };
+		41625C4518CFC61F00A54C1B /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8E18CFBE7700A54C1B /* OscMessage.cpp */; };
+		41625C4618CFC61F00A54C1B /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9018CFBE7700A54C1B /* OscSender.cpp */; };
+		41625C4718CFC6BD00A54C1B /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */; };
+		41625C4818CFC6BD00A54C1B /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */; };
+		41625C4918CFC6BD00A54C1B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7918CFBE7700A54C1B /* UdpSocket.cpp */; };
+		41625C4A18CFC6BE00A54C1B /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */; };
+		41625C4B18CFC6BE00A54C1B /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */; };
+		41625C4C18CFC6BE00A54C1B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */; };
+		41625C4D18CFC6BE00A54C1B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8718CFBE7700A54C1B /* OscTypes.cpp */; };
+		41625C4E18CFC6BE00A54C1B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8A18CFBE7700A54C1B /* OscBundle.cpp */; };
+		41625C4F18CFC6BE00A54C1B /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8C18CFBE7700A54C1B /* OscListener.cpp */; };
+		41625C5018CFC6BE00A54C1B /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8E18CFBE7700A54C1B /* OscMessage.cpp */; };
+		41625C5118CFC6BE00A54C1B /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9018CFBE7700A54C1B /* OscSender.cpp */; };
+		41625C5218CFC6D600A54C1B /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */; };
+		41625C5318CFC6D600A54C1B /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */; };
+		41625C5418CFC6D600A54C1B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B7918CFBE7700A54C1B /* UdpSocket.cpp */; };
+		41625C5518CFC6D600A54C1B /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */; };
+		41625C5618CFC6D600A54C1B /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */; };
+		41625C5718CFC6D600A54C1B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */; };
+		41625C5818CFC6D600A54C1B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8718CFBE7700A54C1B /* OscTypes.cpp */; };
+		41625C5918CFC6D600A54C1B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8A18CFBE7700A54C1B /* OscBundle.cpp */; };
+		41625C5A18CFC6D600A54C1B /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8C18CFBE7700A54C1B /* OscListener.cpp */; };
+		41625C5B18CFC6D600A54C1B /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B8E18CFBE7700A54C1B /* OscMessage.cpp */; };
+		41625C5C18CFC6D600A54C1B /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41625B9018CFBE7700A54C1B /* OscSender.cpp */; };
+		4173A00318C61EB6006E4D51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00218C61EB6006E4D51 /* main.cpp */; };
+		4173A00518C61EB6006E4D51 /* EscPlatform_Import_Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4173A00418C61EB6006E4D51 /* EscPlatform_Import_Test.1 */; };
+		4173A00918C61EDD006E4D51 /* PluginInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B318C57C65006C9904 /* PluginInterface.mm */; };
+		4173A00A18C61EDD006E4D51 /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		4173A00B18C61EDD006E4D51 /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		4173A00C18C61EF5006E4D51 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472C118C5811D006C9904 /* libz.1.2.5.dylib */; };
+		4173A00D18C61F02006E4D51 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E471C218C57D7D006C9904 /* libgloox.a */; };
+		4173A01118C62143006E4D51 /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		4173A01218C62143006E4D51 /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		4173A01318C62143006E4D51 /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		4173A01418C62143006E4D51 /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		4173A01518C62143006E4D51 /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		4173A01618C62143006E4D51 /* AccountRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4173A01018C62143006E4D51 /* AccountRegistration.h */; };
+		4173A01718C62264006E4D51 /* AccountRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4173A00F18C62143006E4D51 /* AccountRegistration.cpp */; };
+		4174F5FE18C26EF0001FC230 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174F5FD18C26EF0001FC230 /* Cocoa.framework */; };
+		4174F60818C26EF0001FC230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4174F60618C26EF0001FC230 /* InfoPlist.strings */; };
+		4174F60C18C26EF0001FC230 /* EscPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4174F60B18C26EF0001FC230 /* EscPlatform.m */; };
+		4174F61418C26EF0001FC230 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174F5FD18C26EF0001FC230 /* Cocoa.framework */; };
+		4174F61718C26EF0001FC230 /* EscPlatform-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174F5FA18C26EF0001FC230 /* EscPlatform-OSX.framework */; };
+		4174F61D18C26EF0001FC230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4174F61B18C26EF0001FC230 /* InfoPlist.strings */; };
+		4174F61F18C26EF0001FC230 /* EscPlatformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4174F61E18C26EF0001FC230 /* EscPlatformTests.m */; };
+		4176AB5A18CE1BC600711515 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4176AB5918CE1BC600711515 /* IOKit.framework */; };
+		4176AB5B18CE1C8100711515 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4176AB5918CE1BC600711515 /* IOKit.framework */; };
+		4176AB5C18CE1C8A00711515 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4176AB5918CE1BC600711515 /* IOKit.framework */; };
+		419BEAC718D33F760080D6D6 /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 419BEAC618D33F760080D6D6 /* Config.h */; };
+		41A0248B18D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0248C18D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0248D18D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0248E18D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0248F18D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249018D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249118D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249218D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249318D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249418D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249518D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249618D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249718D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249818D3A4DA00CDD6D4 /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41A0248918D3A4DA00CDD6D4 /* Logger.mm */; };
+		41A0249918D3A4DA00CDD6D4 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A0248A18D3A4DA00CDD6D4 /* Logger.h */; };
+		41B50EE018D0D6CA006048EB /* IosClientMock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B50EDE18D0D6CA006048EB /* IosClientMock.cpp */; };
+		41B50EE318D0EC79006048EB /* XmppEchoListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B50EE118D0EC79006048EB /* XmppEchoListener.cpp */; };
+		41E1C621194905C2009ACA2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174F5FD18C26EF0001FC230 /* Cocoa.framework */; };
+		41E1C622194905C7009ACA2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4121D9A518EDD7640048DC21 /* CoreGraphics.framework */; };
+		41E1C623194905DE009ACA2E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472F718C585F3006C9904 /* CoreFoundation.framework */; };
+		41E1C62419490633009ACA2E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174F60218C26EF0001FC230 /* AppKit.framework */; };
+		41E471B918C57C65006C9904 /* PluginInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B318C57C65006C9904 /* PluginInterface.mm */; };
+		41E471BA18C57C65006C9904 /* PluginInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B318C57C65006C9904 /* PluginInterface.mm */; };
+		41E471BB18C57C65006C9904 /* PluginInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E471B418C57C65006C9904 /* PluginInterface.h */; };
+		41E471BC18C57C65006C9904 /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41E471BD18C57C65006C9904 /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41E471BE18C57C65006C9904 /* XmppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E471B618C57C65006C9904 /* XmppClient.h */; };
+		41E471BF18C57C65006C9904 /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41E471C018C57C65006C9904 /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41E471C118C57C65006C9904 /* XmppListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E471B818C57C65006C9904 /* XmppListener.h */; };
+		41E471C418C57D7D006C9904 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E471C218C57D7D006C9904 /* libgloox.a */; };
+		41E472C018C5810F006C9904 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E471C218C57D7D006C9904 /* libgloox.a */; };
+		41E472C218C5811D006C9904 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472C118C5811D006C9904 /* libz.1.2.5.dylib */; };
+		41E472C918C58343006C9904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472C818C58343006C9904 /* Foundation.framework */; };
+		41E472CE18C58343006C9904 /* EscPlatform_iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41E472CD18C58343006C9904 /* EscPlatform_iOS.h */; };
+		41E472D018C58343006C9904 /* EscPlatform_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E472CF18C58343006C9904 /* EscPlatform_iOS.m */; };
+		41E472D718C58343006C9904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472C818C58343006C9904 /* Foundation.framework */; };
+		41E472DC18C58343006C9904 /* libEscPlatform-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472C718C58343006C9904 /* libEscPlatform-iOS.a */; };
+		41E472EB18C583BC006C9904 /* PluginInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B318C57C65006C9904 /* PluginInterface.mm */; };
+		41E472EC18C583BC006C9904 /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41E472ED18C583BC006C9904 /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41E472F818C585F3006C9904 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472F718C585F3006C9904 /* CoreFoundation.framework */; };
+		41E472FE18C585F3006C9904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41E472FC18C585F3006C9904 /* InfoPlist.strings */; };
+		41E4730318C58649006C9904 /* PluginInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B318C57C65006C9904 /* PluginInterface.mm */; };
+		41E4730418C58649006C9904 /* XmppClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B518C57C65006C9904 /* XmppClient.cpp */; };
+		41E4730518C58649006C9904 /* XmppListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E471B718C57C65006C9904 /* XmppListener.cpp */; };
+		41E4730618C58663006C9904 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E471C218C57D7D006C9904 /* libgloox.a */; };
+		41E4730718C5866A006C9904 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E472C118C5811D006C9904 /* libz.1.2.5.dylib */; };
+		4672C43919EF114000940C74 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4672C43719EF114000940C74 /* Reachability.h */; };
+		4672C43A19EF114000940C74 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4672C43819EF114000940C74 /* Reachability.m */; };
+		4672C43B19EF114000940C74 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4672C43819EF114000940C74 /* Reachability.m */; };
+		46D9DF7B1A0293140075784C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D9DF7A1A0293140075784C /* SystemConfiguration.framework */; };
+		46D9DF7D1A02931B0075784C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D9DF7C1A02931B0075784C /* UIKit.framework */; };
+		46D9DF7F1A0293230075784C /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D9DF7E1A0293230075784C /* libz.1.2.5.dylib */; };
+		9C570DFA18EDB69B00FBE2AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174F5FD18C26EF0001FC230 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4174F61518C26EF0001FC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4174F5F118C26EF0001FC230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4174F5F918C26EF0001FC230;
+			remoteInfo = EscPlatform;
+		};
+		41E472DA18C58343006C9904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4174F5F118C26EF0001FC230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E472C618C58343006C9904;
+			remoteInfo = "EscPlatform-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C5A8BA418DE3074006D688F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3C5A8BAB18DE3075006D688F /* AccountCreationTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625B9418CFBEC000A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625B9B18CFBEC000A54C1B /* Osc_Listener.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BA118CFBECC00A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BA818CFBECC00A54C1B /* Osc_Sender.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BAE18CFBEE700A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BB518CFBEE700A54C1B /* OscPerformanceTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BBB18CFBEF300A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BC218CFBEF300A54C1B /* XmppPerformanceTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BC818CFBF0100A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BCF18CFBF0100A54C1B /* OscEchoClient.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BD518CFBF0F00A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BDC18CFBF0F00A54C1B /* XmppEchoClient.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BE218CFBF2700A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BE918CFBF2700A54C1B /* MockForController.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41625BEF18CFBF3200A54C1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				41625BF618CFBF3200A54C1B /* MockForGame.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41739FFE18C61EB6006E4D51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4173A00518C61EB6006E4D51 /* EscPlatform_Import_Test.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		41E472C518C58343006C9904 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				41E472CE18C58343006C9904 /* EscPlatform_iOS.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AccountEraser.cpp; path = ../../source/AccountEraser.cpp; sourceTree = "<group>"; };
+		3C5A8B9218DE17CA006D688F /* AccountEraser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountEraser.h; path = ../../source/AccountEraser.h; sourceTree = "<group>"; };
+		3C5A8BA618DE3074006D688F /* AccountCreationTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AccountCreationTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5A8BA818DE3075006D688F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C5A8BAA18DE3075006D688F /* AccountCreationTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AccountCreationTest.1; sourceTree = "<group>"; };
+		3CF5AC5919E4846D00343A15 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libz.1.2.5.dylib; sourceTree = DEVELOPER_DIR; };
+		3CF5AC5B19E4847100343A15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4121D9A518EDD7640048DC21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41254DEB18D9DC6700ABFBD1 /* PdKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdKeychainBindings.h; sourceTree = "<group>"; };
+		41254DEC18D9DC6700ABFBD1 /* PdKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdKeychainBindings.m; sourceTree = "<group>"; };
+		41254DED18D9DC6700ABFBD1 /* PdKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdKeychainBindingsController.h; sourceTree = "<group>"; };
+		41254DEE18D9DC6700ABFBD1 /* PdKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdKeychainBindingsController.m; sourceTree = "<group>"; };
+		41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IpEndpointName.cpp; sourceTree = "<group>"; };
+		41625B7418CFBE7700A54C1B /* IpEndpointName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IpEndpointName.h; sourceTree = "<group>"; };
+		41625B7518CFBE7700A54C1B /* NetworkingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingUtils.h; sourceTree = "<group>"; };
+		41625B7618CFBE7700A54C1B /* PacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketListener.h; sourceTree = "<group>"; };
+		41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkingUtils.cpp; sourceTree = "<group>"; };
+		41625B7918CFBE7700A54C1B /* UdpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
+		41625B7A18CFBE7700A54C1B /* TimerListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerListener.h; sourceTree = "<group>"; };
+		41625B7B18CFBE7700A54C1B /* UdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		41625B7D18CFBE7700A54C1B /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
+		41625B7E18CFBE7700A54C1B /* OscException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
+		41625B7F18CFBE7700A54C1B /* OscHostEndianness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscHostEndianness.h; sourceTree = "<group>"; };
+		41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscOutboundPacketStream.cpp; sourceTree = "<group>"; };
+		41625B8118CFBE7700A54C1B /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscOutboundPacketStream.h; sourceTree = "<group>"; };
+		41625B8218CFBE7700A54C1B /* OscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscPacketListener.h; sourceTree = "<group>"; };
+		41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscPrintReceivedElements.cpp; sourceTree = "<group>"; };
+		41625B8418CFBE7700A54C1B /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscPrintReceivedElements.h; sourceTree = "<group>"; };
+		41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscReceivedElements.cpp; sourceTree = "<group>"; };
+		41625B8618CFBE7700A54C1B /* OscReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscReceivedElements.h; sourceTree = "<group>"; };
+		41625B8718CFBE7700A54C1B /* OscTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscTypes.cpp; sourceTree = "<group>"; };
+		41625B8818CFBE7700A54C1B /* OscTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
+		41625B8918CFBE7700A54C1B /* OscArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscArg.h; path = ../../source/OscArg.h; sourceTree = "<group>"; };
+		41625B8A18CFBE7700A54C1B /* OscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OscBundle.cpp; path = ../../source/OscBundle.cpp; sourceTree = "<group>"; };
+		41625B8B18CFBE7700A54C1B /* OscBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscBundle.h; path = ../../source/OscBundle.h; sourceTree = "<group>"; };
+		41625B8C18CFBE7700A54C1B /* OscListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OscListener.cpp; path = ../../source/OscListener.cpp; sourceTree = "<group>"; };
+		41625B8D18CFBE7700A54C1B /* OscListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscListener.h; path = ../../source/OscListener.h; sourceTree = "<group>"; };
+		41625B8E18CFBE7700A54C1B /* OscMessage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OscMessage.cpp; path = ../../source/OscMessage.cpp; sourceTree = "<group>"; };
+		41625B8F18CFBE7700A54C1B /* OscMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscMessage.h; path = ../../source/OscMessage.h; sourceTree = "<group>"; };
+		41625B9018CFBE7700A54C1B /* OscSender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OscSender.cpp; path = ../../source/OscSender.cpp; sourceTree = "<group>"; };
+		41625B9118CFBE7700A54C1B /* OscSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscSender.h; path = ../../source/OscSender.h; sourceTree = "<group>"; };
+		41625B9618CFBEC000A54C1B /* Osc-Listener */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Osc-Listener"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625B9818CFBEC000A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625B9A18CFBEC000A54C1B /* Osc_Listener.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Osc_Listener.1; sourceTree = "<group>"; };
+		41625BA318CFBECC00A54C1B /* Osc-Sender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Osc-Sender"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BA518CFBECC00A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BA718CFBECC00A54C1B /* Osc_Sender.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Osc_Sender.1; sourceTree = "<group>"; };
+		41625BB018CFBEE700A54C1B /* OscPerformanceTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OscPerformanceTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BB218CFBEE700A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BB418CFBEE700A54C1B /* OscPerformanceTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OscPerformanceTest.1; sourceTree = "<group>"; };
+		41625BBD18CFBEF300A54C1B /* XmppPerformanceTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XmppPerformanceTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BBF18CFBEF300A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BC118CFBEF300A54C1B /* XmppPerformanceTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XmppPerformanceTest.1; sourceTree = "<group>"; };
+		41625BCA18CFBF0100A54C1B /* OscEchoClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OscEchoClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BCC18CFBF0100A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BCE18CFBF0100A54C1B /* OscEchoClient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OscEchoClient.1; sourceTree = "<group>"; };
+		41625BD718CFBF0F00A54C1B /* XmppEchoClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XmppEchoClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BD918CFBF0F00A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BDB18CFBF0F00A54C1B /* XmppEchoClient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XmppEchoClient.1; sourceTree = "<group>"; };
+		41625BE418CFBF2700A54C1B /* MockForController */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MockForController; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BE618CFBF2700A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BE818CFBF2700A54C1B /* MockForController.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MockForController.1; sourceTree = "<group>"; };
+		41625BF118CFBF3200A54C1B /* MockForGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MockForGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		41625BF318CFBF3200A54C1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41625BF518CFBF3200A54C1B /* MockForGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MockForGame.1; sourceTree = "<group>"; };
+		41625C0E18CFC0BB00A54C1B /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = usr/lib/libresolv.9.dylib; sourceTree = SDKROOT; };
+		41625C1218CFC21E00A54C1B /* libgloox-libc++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgloox-libc++.a"; path = "../../lib/macosx/libgloox-libc++.a"; sourceTree = "<group>"; };
+		41625C1418CFC28900A54C1B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../../lib/macosx/libssl.a; sourceTree = "<group>"; };
+		41625C1618CFC29F00A54C1B /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		41625C1818CFC2A400A54C1B /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		4173A00018C61EB6006E4D51 /* EscPlatform-Import-Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EscPlatform-Import-Test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4173A00218C61EB6006E4D51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4173A00418C61EB6006E4D51 /* EscPlatform_Import_Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EscPlatform_Import_Test.1; sourceTree = "<group>"; };
+		4173A00F18C62143006E4D51 /* AccountRegistration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AccountRegistration.cpp; path = ../../source/AccountRegistration.cpp; sourceTree = "<group>"; };
+		4173A01018C62143006E4D51 /* AccountRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountRegistration.h; path = ../../source/AccountRegistration.h; sourceTree = "<group>"; };
+		4174F5FA18C26EF0001FC230 /* EscPlatform-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "EscPlatform-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4174F5FD18C26EF0001FC230 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4174F60018C26EF0001FC230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4174F60118C26EF0001FC230 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4174F60218C26EF0001FC230 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4174F60518C26EF0001FC230 /* EscPlatform-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EscPlatform-Info.plist"; sourceTree = "<group>"; };
+		4174F60718C26EF0001FC230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4174F60918C26EF0001FC230 /* EscPlatform-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EscPlatform-Prefix.pch"; sourceTree = "<group>"; };
+		4174F60A18C26EF0001FC230 /* EscPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EscPlatform.h; sourceTree = "<group>"; };
+		4174F60B18C26EF0001FC230 /* EscPlatform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscPlatform.m; sourceTree = "<group>"; };
+		4174F61118C26EF0001FC230 /* EscPlatform-OSX-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EscPlatform-OSX-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4174F61A18C26EF0001FC230 /* EscPlatformTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EscPlatformTests-Info.plist"; sourceTree = "<group>"; };
+		4174F61C18C26EF0001FC230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4174F61E18C26EF0001FC230 /* EscPlatformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscPlatformTests.m; sourceTree = "<group>"; };
+		4176AB5918CE1BC600711515 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		419BEAC618D33F760080D6D6 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = ../../source/Config.h; sourceTree = "<group>"; };
+		41A0248918D3A4DA00CDD6D4 /* Logger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Logger.mm; path = ../../source/Logger.mm; sourceTree = "<group>"; };
+		41A0248A18D3A4DA00CDD6D4 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = ../../source/Logger.h; sourceTree = "<group>"; };
+		41B50EDE18D0D6CA006048EB /* IosClientMock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IosClientMock.cpp; path = ../../../source/IosClientMock.cpp; sourceTree = "<group>"; };
+		41B50EDF18D0D6CA006048EB /* IosClientMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IosClientMock.h; path = ../../../source/IosClientMock.h; sourceTree = "<group>"; };
+		41B50EE118D0EC79006048EB /* XmppEchoListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XmppEchoListener.cpp; path = ../../../source/XmppEchoListener.cpp; sourceTree = "<group>"; };
+		41B50EE218D0EC79006048EB /* XmppEchoListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmppEchoListener.h; path = ../../../source/XmppEchoListener.h; sourceTree = "<group>"; };
+		41E471B318C57C65006C9904 /* PluginInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PluginInterface.mm; path = ../../source/PluginInterface.mm; sourceTree = "<group>"; };
+		41E471B418C57C65006C9904 /* PluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginInterface.h; path = ../../source/PluginInterface.h; sourceTree = "<group>"; };
+		41E471B518C57C65006C9904 /* XmppClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XmppClient.cpp; path = ../../source/XmppClient.cpp; sourceTree = "<group>"; };
+		41E471B618C57C65006C9904 /* XmppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmppClient.h; path = ../../source/XmppClient.h; sourceTree = "<group>"; };
+		41E471B718C57C65006C9904 /* XmppListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XmppListener.cpp; path = ../../source/XmppListener.cpp; sourceTree = "<group>"; };
+		41E471B818C57C65006C9904 /* XmppListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmppListener.h; path = ../../source/XmppListener.h; sourceTree = "<group>"; };
+		41E471C218C57D7D006C9904 /* libgloox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgloox.a; path = ../../lib/macosx/libgloox.a; sourceTree = "<group>"; };
+		41E472C118C5811D006C9904 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		41E472C718C58343006C9904 /* libEscPlatform-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libEscPlatform-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E472C818C58343006C9904 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41E472CC18C58343006C9904 /* EscPlatform-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EscPlatform-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		41E472CD18C58343006C9904 /* EscPlatform_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EscPlatform_iOS.h; sourceTree = "<group>"; };
+		41E472CF18C58343006C9904 /* EscPlatform_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscPlatform_iOS.m; sourceTree = "<group>"; };
+		41E472D518C58343006C9904 /* EscPlatform-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EscPlatform-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E472F018C58417006C9904 /* libgloox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgloox.a; path = ../../lib/ios/libgloox.a; sourceTree = "<group>"; };
+		41E472F618C585F3006C9904 /* ESC-Unity-Plugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESC-Unity-Plugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E472F718C585F3006C9904 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		41E472FB18C585F3006C9904 /* EscPlatform-Bundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EscPlatform-Bundle-Info.plist"; sourceTree = "<group>"; };
+		41E472FD18C585F3006C9904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41E472FF18C585F3006C9904 /* EscPlatform-Bundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EscPlatform-Bundle-Prefix.pch"; sourceTree = "<group>"; };
+		46216EFF19EDA0BA002F1E8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		4672C43719EF114000940C74 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4672C43819EF114000940C74 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		46D9DF7A1A0293140075784C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		46D9DF7C1A02931B0075784C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		46D9DF7E1A0293230075784C /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/usr/lib/libz.1.2.5.dylib; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5A8BA318DE3074006D688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625B9318CFBEC000A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BA018CFBECC00A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BAD18CFBEE700A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BBA18CFBEF300A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BC718CFBF0100A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BD418CFBF0F00A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BE118CFBF2700A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C1C18CFC43E00A54C1B /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BEE18CFBF3200A54C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C1A18CFC40D00A54C1B /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41739FFD18C61EB6006E4D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E1C62419490633009ACA2E /* AppKit.framework in Frameworks */,
+				41E1C623194905DE009ACA2E /* CoreFoundation.framework in Frameworks */,
+				41E1C622194905C7009ACA2E /* CoreGraphics.framework in Frameworks */,
+				41E1C621194905C2009ACA2E /* Cocoa.framework in Frameworks */,
+				4176AB5B18CE1C8100711515 /* IOKit.framework in Frameworks */,
+				4173A00D18C61F02006E4D51 /* libgloox.a in Frameworks */,
+				4173A00C18C61EF5006E4D51 /* libz.1.2.5.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4174F5F618C26EF0001FC230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4176AB5C18CE1C8A00711515 /* IOKit.framework in Frameworks */,
+				41E472C218C5811D006C9904 /* libz.1.2.5.dylib in Frameworks */,
+				4174F5FE18C26EF0001FC230 /* Cocoa.framework in Frameworks */,
+				41E472C018C5810F006C9904 /* libgloox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4174F60E18C26EF0001FC230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4174F61418C26EF0001FC230 /* Cocoa.framework in Frameworks */,
+				41E471C418C57D7D006C9904 /* libgloox.a in Frameworks */,
+				4174F61718C26EF0001FC230 /* EscPlatform-OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472C418C58343006C9904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D9DF7F1A0293230075784C /* libz.1.2.5.dylib in Frameworks */,
+				46D9DF7D1A02931B0075784C /* UIKit.framework in Frameworks */,
+				46D9DF7B1A0293140075784C /* SystemConfiguration.framework in Frameworks */,
+				3CF5AC6019E4873D00343A15 /* libgloox.a in Frameworks */,
+				41E472C918C58343006C9904 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472D218C58343006C9904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E472DC18C58343006C9904 /* libEscPlatform-iOS.a in Frameworks */,
+				41E472D718C58343006C9904 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472F318C585F3006C9904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4121D9A618EDD7640048DC21 /* CoreGraphics.framework in Frameworks */,
+				9C570DFA18EDB69B00FBE2AC /* Cocoa.framework in Frameworks */,
+				4176AB5A18CE1BC600711515 /* IOKit.framework in Frameworks */,
+				41E4730718C5866A006C9904 /* libz.1.2.5.dylib in Frameworks */,
+				41E4730618C58663006C9904 /* libgloox.a in Frameworks */,
+				41E472F818C585F3006C9904 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5A8BA718DE3075006D688F /* AccountCreationTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C5A8BA818DE3075006D688F /* main.cpp */,
+				3C5A8BAA18DE3075006D688F /* AccountCreationTest.1 */,
+			);
+			path = AccountCreationTest;
+			sourceTree = "<group>";
+		};
+		41254DEA18D9DC6700ABFBD1 /* PdKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				41254DEB18D9DC6700ABFBD1 /* PdKeychainBindings.h */,
+				41254DEC18D9DC6700ABFBD1 /* PdKeychainBindings.m */,
+				41254DED18D9DC6700ABFBD1 /* PdKeychainBindingsController.h */,
+				41254DEE18D9DC6700ABFBD1 /* PdKeychainBindingsController.m */,
+			);
+			name = PdKeychain;
+			path = ../../source/PdKeychain;
+			sourceTree = "<group>";
+		};
+		41625B7218CFBE7700A54C1B /* ip */ = {
+			isa = PBXGroup;
+			children = (
+				41625B7718CFBE7700A54C1B /* posix */,
+				41625B7318CFBE7700A54C1B /* IpEndpointName.cpp */,
+				41625B7418CFBE7700A54C1B /* IpEndpointName.h */,
+				41625B7518CFBE7700A54C1B /* NetworkingUtils.h */,
+				41625B7618CFBE7700A54C1B /* PacketListener.h */,
+				41625B7A18CFBE7700A54C1B /* TimerListener.h */,
+				41625B7B18CFBE7700A54C1B /* UdpSocket.h */,
+			);
+			name = ip;
+			path = ../../source/ip;
+			sourceTree = "<group>";
+		};
+		41625B7718CFBE7700A54C1B /* posix */ = {
+			isa = PBXGroup;
+			children = (
+				41625B7818CFBE7700A54C1B /* NetworkingUtils.cpp */,
+				41625B7918CFBE7700A54C1B /* UdpSocket.cpp */,
+			);
+			path = posix;
+			sourceTree = "<group>";
+		};
+		41625B7C18CFBE7700A54C1B /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				41625B7D18CFBE7700A54C1B /* MessageMappingOscPacketListener.h */,
+				41625B7E18CFBE7700A54C1B /* OscException.h */,
+				41625B7F18CFBE7700A54C1B /* OscHostEndianness.h */,
+				41625B8018CFBE7700A54C1B /* OscOutboundPacketStream.cpp */,
+				41625B8118CFBE7700A54C1B /* OscOutboundPacketStream.h */,
+				41625B8218CFBE7700A54C1B /* OscPacketListener.h */,
+				41625B8318CFBE7700A54C1B /* OscPrintReceivedElements.cpp */,
+				41625B8418CFBE7700A54C1B /* OscPrintReceivedElements.h */,
+				41625B8518CFBE7700A54C1B /* OscReceivedElements.cpp */,
+				41625B8618CFBE7700A54C1B /* OscReceivedElements.h */,
+				41625B8718CFBE7700A54C1B /* OscTypes.cpp */,
+				41625B8818CFBE7700A54C1B /* OscTypes.h */,
+			);
+			name = osc;
+			path = ../../source/osc;
+			sourceTree = "<group>";
+		};
+		41625B9718CFBEC000A54C1B /* Osc-Listener */ = {
+			isa = PBXGroup;
+			children = (
+				41625B9818CFBEC000A54C1B /* main.cpp */,
+				41625B9A18CFBEC000A54C1B /* Osc_Listener.1 */,
+			);
+			path = "Osc-Listener";
+			sourceTree = "<group>";
+		};
+		41625BA418CFBECC00A54C1B /* Osc-Sender */ = {
+			isa = PBXGroup;
+			children = (
+				41625BA518CFBECC00A54C1B /* main.cpp */,
+				41625BA718CFBECC00A54C1B /* Osc_Sender.1 */,
+			);
+			path = "Osc-Sender";
+			sourceTree = "<group>";
+		};
+		41625BB118CFBEE700A54C1B /* OscPerformanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				41625BB218CFBEE700A54C1B /* main.cpp */,
+				41625BB418CFBEE700A54C1B /* OscPerformanceTest.1 */,
+			);
+			path = OscPerformanceTest;
+			sourceTree = "<group>";
+		};
+		41625BBE18CFBEF300A54C1B /* XmppPerformanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				41625BBF18CFBEF300A54C1B /* main.cpp */,
+				41625BC118CFBEF300A54C1B /* XmppPerformanceTest.1 */,
+			);
+			path = XmppPerformanceTest;
+			sourceTree = "<group>";
+		};
+		41625BCB18CFBF0100A54C1B /* OscEchoClient */ = {
+			isa = PBXGroup;
+			children = (
+				41625BCC18CFBF0100A54C1B /* main.cpp */,
+				41625BCE18CFBF0100A54C1B /* OscEchoClient.1 */,
+			);
+			path = OscEchoClient;
+			sourceTree = "<group>";
+		};
+		41625BD818CFBF0F00A54C1B /* XmppEchoClient */ = {
+			isa = PBXGroup;
+			children = (
+				41B50EE118D0EC79006048EB /* XmppEchoListener.cpp */,
+				41B50EE218D0EC79006048EB /* XmppEchoListener.h */,
+				41625BD918CFBF0F00A54C1B /* main.cpp */,
+				41625BDB18CFBF0F00A54C1B /* XmppEchoClient.1 */,
+			);
+			path = XmppEchoClient;
+			sourceTree = "<group>";
+		};
+		41625BE518CFBF2700A54C1B /* MockForController */ = {
+			isa = PBXGroup;
+			children = (
+				41625BE618CFBF2700A54C1B /* main.cpp */,
+				41625BE818CFBF2700A54C1B /* MockForController.1 */,
+			);
+			path = MockForController;
+			sourceTree = "<group>";
+		};
+		41625BF218CFBF3200A54C1B /* MockForGame */ = {
+			isa = PBXGroup;
+			children = (
+				41B50EDE18D0D6CA006048EB /* IosClientMock.cpp */,
+				41B50EDF18D0D6CA006048EB /* IosClientMock.h */,
+				41625BF318CFBF3200A54C1B /* main.cpp */,
+				41625BF518CFBF3200A54C1B /* MockForGame.1 */,
+			);
+			path = MockForGame;
+			sourceTree = "<group>";
+		};
+		4173A00118C61EB6006E4D51 /* EscPlatform-Import-Test */ = {
+			isa = PBXGroup;
+			children = (
+				4173A00218C61EB6006E4D51 /* main.cpp */,
+				4173A00418C61EB6006E4D51 /* EscPlatform_Import_Test.1 */,
+			);
+			path = "EscPlatform-Import-Test";
+			sourceTree = "<group>";
+		};
+		4174F5F018C26EF0001FC230 = {
+			isa = PBXGroup;
+			children = (
+				4174F62818C26F91001FC230 /* Source */,
+				4174F60318C26EF0001FC230 /* EscPlatform */,
+				4174F61818C26EF0001FC230 /* EscPlatformTests */,
+				41E472CA18C58343006C9904 /* EscPlatform-iOS */,
+				41E472F918C585F3006C9904 /* EscPlatform-Bundle */,
+				4173A00118C61EB6006E4D51 /* EscPlatform-Import-Test */,
+				41625B9718CFBEC000A54C1B /* Osc-Listener */,
+				41625BA418CFBECC00A54C1B /* Osc-Sender */,
+				41625BB118CFBEE700A54C1B /* OscPerformanceTest */,
+				41625BBE18CFBEF300A54C1B /* XmppPerformanceTest */,
+				41625BCB18CFBF0100A54C1B /* OscEchoClient */,
+				41625BD818CFBF0F00A54C1B /* XmppEchoClient */,
+				41625BE518CFBF2700A54C1B /* MockForController */,
+				41625BF218CFBF3200A54C1B /* MockForGame */,
+				3C5A8BA718DE3075006D688F /* AccountCreationTest */,
+				4174F5FC18C26EF0001FC230 /* Frameworks */,
+				4174F5FB18C26EF0001FC230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4174F5FB18C26EF0001FC230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4174F5FA18C26EF0001FC230 /* EscPlatform-OSX.framework */,
+				4174F61118C26EF0001FC230 /* EscPlatform-OSX-Tests.xctest */,
+				41E472C718C58343006C9904 /* libEscPlatform-iOS.a */,
+				41E472D518C58343006C9904 /* EscPlatform-iOS-Tests.xctest */,
+				41E472F618C585F3006C9904 /* ESC-Unity-Plugin.bundle */,
+				4173A00018C61EB6006E4D51 /* EscPlatform-Import-Test */,
+				41625B9618CFBEC000A54C1B /* Osc-Listener */,
+				41625BA318CFBECC00A54C1B /* Osc-Sender */,
+				41625BB018CFBEE700A54C1B /* OscPerformanceTest */,
+				41625BBD18CFBEF300A54C1B /* XmppPerformanceTest */,
+				41625BCA18CFBF0100A54C1B /* OscEchoClient */,
+				41625BD718CFBF0F00A54C1B /* XmppEchoClient */,
+				41625BE418CFBF2700A54C1B /* MockForController */,
+				41625BF118CFBF3200A54C1B /* MockForGame */,
+				3C5A8BA618DE3074006D688F /* AccountCreationTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4174F5FC18C26EF0001FC230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D9DF7E1A0293230075784C /* libz.1.2.5.dylib */,
+				46D9DF7C1A02931B0075784C /* UIKit.framework */,
+				46D9DF7A1A0293140075784C /* SystemConfiguration.framework */,
+				46216EFF19EDA0BA002F1E8C /* SystemConfiguration.framework */,
+				3CF5AC5B19E4847100343A15 /* UIKit.framework */,
+				3CF5AC5919E4846D00343A15 /* libz.1.2.5.dylib */,
+				4174F5FD18C26EF0001FC230 /* Cocoa.framework */,
+				41E472F718C585F3006C9904 /* CoreFoundation.framework */,
+				4121D9A518EDD7640048DC21 /* CoreGraphics.framework */,
+				41E472C818C58343006C9904 /* Foundation.framework */,
+				4176AB5918CE1BC600711515 /* IOKit.framework */,
+				41625C1818CFC2A400A54C1B /* libcrypto.dylib */,
+				41625C1218CFC21E00A54C1B /* libgloox-libc++.a */,
+				41E472F018C58417006C9904 /* libgloox.a */,
+				41E471C218C57D7D006C9904 /* libgloox.a */,
+				41625C0E18CFC0BB00A54C1B /* libresolv.9.dylib */,
+				41625C1418CFC28900A54C1B /* libssl.a */,
+				41625C1618CFC29F00A54C1B /* libssl.dylib */,
+				41E472C118C5811D006C9904 /* libz.1.2.5.dylib */,
+				4174F5FF18C26EF0001FC230 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4174F5FF18C26EF0001FC230 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4174F60018C26EF0001FC230 /* Foundation.framework */,
+				4174F60118C26EF0001FC230 /* CoreData.framework */,
+				4174F60218C26EF0001FC230 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4174F60318C26EF0001FC230 /* EscPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				4174F60A18C26EF0001FC230 /* EscPlatform.h */,
+				4174F60B18C26EF0001FC230 /* EscPlatform.m */,
+				4174F60418C26EF0001FC230 /* Supporting Files */,
+			);
+			path = EscPlatform;
+			sourceTree = "<group>";
+		};
+		4174F60418C26EF0001FC230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4174F60518C26EF0001FC230 /* EscPlatform-Info.plist */,
+				4174F60618C26EF0001FC230 /* InfoPlist.strings */,
+				4174F60918C26EF0001FC230 /* EscPlatform-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4174F61818C26EF0001FC230 /* EscPlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				4174F61E18C26EF0001FC230 /* EscPlatformTests.m */,
+				4174F61918C26EF0001FC230 /* Supporting Files */,
+			);
+			path = EscPlatformTests;
+			sourceTree = "<group>";
+		};
+		4174F61918C26EF0001FC230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4174F61A18C26EF0001FC230 /* EscPlatformTests-Info.plist */,
+				4174F61B18C26EF0001FC230 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4174F62818C26F91001FC230 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4672C43619EF114000940C74 /* Reachability */,
+				41625B7218CFBE7700A54C1B /* ip */,
+				41625B7C18CFBE7700A54C1B /* osc */,
+				41254DEA18D9DC6700ABFBD1 /* PdKeychain */,
+				3C5A8B9118DE17CA006D688F /* AccountEraser.cpp */,
+				3C5A8B9218DE17CA006D688F /* AccountEraser.h */,
+				4173A00F18C62143006E4D51 /* AccountRegistration.cpp */,
+				4173A01018C62143006E4D51 /* AccountRegistration.h */,
+				419BEAC618D33F760080D6D6 /* Config.h */,
+				41A0248A18D3A4DA00CDD6D4 /* Logger.h */,
+				41A0248918D3A4DA00CDD6D4 /* Logger.mm */,
+				41625B8918CFBE7700A54C1B /* OscArg.h */,
+				41625B8A18CFBE7700A54C1B /* OscBundle.cpp */,
+				41625B8B18CFBE7700A54C1B /* OscBundle.h */,
+				41625B8C18CFBE7700A54C1B /* OscListener.cpp */,
+				41625B8D18CFBE7700A54C1B /* OscListener.h */,
+				41625B8E18CFBE7700A54C1B /* OscMessage.cpp */,
+				41625B8F18CFBE7700A54C1B /* OscMessage.h */,
+				41625B9018CFBE7700A54C1B /* OscSender.cpp */,
+				41625B9118CFBE7700A54C1B /* OscSender.h */,
+				41E471B418C57C65006C9904 /* PluginInterface.h */,
+				41E471B318C57C65006C9904 /* PluginInterface.mm */,
+				41E471B518C57C65006C9904 /* XmppClient.cpp */,
+				41E471B618C57C65006C9904 /* XmppClient.h */,
+				41E471B718C57C65006C9904 /* XmppListener.cpp */,
+				41E471B818C57C65006C9904 /* XmppListener.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		41E472CA18C58343006C9904 /* EscPlatform-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				41E472CD18C58343006C9904 /* EscPlatform_iOS.h */,
+				41E472CF18C58343006C9904 /* EscPlatform_iOS.m */,
+				41E472CB18C58343006C9904 /* Supporting Files */,
+			);
+			path = "EscPlatform-iOS";
+			sourceTree = "<group>";
+		};
+		41E472CB18C58343006C9904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E472CC18C58343006C9904 /* EscPlatform-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41E472F918C585F3006C9904 /* EscPlatform-Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				41E472FA18C585F3006C9904 /* Supporting Files */,
+			);
+			path = "EscPlatform-Bundle";
+			sourceTree = "<group>";
+		};
+		41E472FA18C585F3006C9904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E472FB18C585F3006C9904 /* EscPlatform-Bundle-Info.plist */,
+				41E472FC18C585F3006C9904 /* InfoPlist.strings */,
+				41E472FF18C585F3006C9904 /* EscPlatform-Bundle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4672C43619EF114000940C74 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4672C43719EF114000940C74 /* Reachability.h */,
+				4672C43819EF114000940C74 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = ../../source/Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4174F5F718C26EF0001FC230 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41254DEF18D9DC6700ABFBD1 /* PdKeychainBindings.h in Headers */,
+				41E471C118C57C65006C9904 /* XmppListener.h in Headers */,
+				41E471BE18C57C65006C9904 /* XmppClient.h in Headers */,
+				419BEAC718D33F760080D6D6 /* Config.h in Headers */,
+				3C5A8BA118DE17CA006D688F /* AccountEraser.h in Headers */,
+				41E471BB18C57C65006C9904 /* PluginInterface.h in Headers */,
+				41A0249918D3A4DA00CDD6D4 /* Logger.h in Headers */,
+				41254DFE18D9DC6700ABFBD1 /* PdKeychainBindingsController.h in Headers */,
+				4173A01618C62143006E4D51 /* AccountRegistration.h in Headers */,
+				4672C43919EF114000940C74 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C5A8BA518DE3074006D688F /* AccountCreationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5A8BAC18DE3075006D688F /* Build configuration list for PBXNativeTarget "AccountCreationTest" */;
+			buildPhases = (
+				3C5A8BA218DE3074006D688F /* Sources */,
+				3C5A8BA318DE3074006D688F /* Frameworks */,
+				3C5A8BA418DE3074006D688F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccountCreationTest;
+			productName = AccountCreationTest;
+			productReference = 3C5A8BA618DE3074006D688F /* AccountCreationTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625B9518CFBEC000A54C1B /* Osc-Listener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625B9C18CFBEC000A54C1B /* Build configuration list for PBXNativeTarget "Osc-Listener" */;
+			buildPhases = (
+				41625B9218CFBEC000A54C1B /* Sources */,
+				41625B9318CFBEC000A54C1B /* Frameworks */,
+				41625B9418CFBEC000A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Osc-Listener";
+			productName = "Osc-Listener";
+			productReference = 41625B9618CFBEC000A54C1B /* Osc-Listener */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BA218CFBECC00A54C1B /* Osc-Sender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BA918CFBECC00A54C1B /* Build configuration list for PBXNativeTarget "Osc-Sender" */;
+			buildPhases = (
+				41625B9F18CFBECC00A54C1B /* Sources */,
+				41625BA018CFBECC00A54C1B /* Frameworks */,
+				41625BA118CFBECC00A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Osc-Sender";
+			productName = "Osc-Sender";
+			productReference = 41625BA318CFBECC00A54C1B /* Osc-Sender */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BAF18CFBEE700A54C1B /* OscPerformanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BB618CFBEE800A54C1B /* Build configuration list for PBXNativeTarget "OscPerformanceTest" */;
+			buildPhases = (
+				41625BAC18CFBEE700A54C1B /* Sources */,
+				41625BAD18CFBEE700A54C1B /* Frameworks */,
+				41625BAE18CFBEE700A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OscPerformanceTest;
+			productName = OscPerformanceTest;
+			productReference = 41625BB018CFBEE700A54C1B /* OscPerformanceTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BBC18CFBEF300A54C1B /* XmppPerformanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BC318CFBEF400A54C1B /* Build configuration list for PBXNativeTarget "XmppPerformanceTest" */;
+			buildPhases = (
+				41625BB918CFBEF300A54C1B /* Sources */,
+				41625BBA18CFBEF300A54C1B /* Frameworks */,
+				41625BBB18CFBEF300A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmppPerformanceTest;
+			productName = XmppPerformanceTest;
+			productReference = 41625BBD18CFBEF300A54C1B /* XmppPerformanceTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BC918CFBF0100A54C1B /* OscEchoClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BD018CFBF0100A54C1B /* Build configuration list for PBXNativeTarget "OscEchoClient" */;
+			buildPhases = (
+				41625BC618CFBF0100A54C1B /* Sources */,
+				41625BC718CFBF0100A54C1B /* Frameworks */,
+				41625BC818CFBF0100A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OscEchoClient;
+			productName = OscEchoClient;
+			productReference = 41625BCA18CFBF0100A54C1B /* OscEchoClient */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BD618CFBF0F00A54C1B /* XmppEchoClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BDD18CFBF0F00A54C1B /* Build configuration list for PBXNativeTarget "XmppEchoClient" */;
+			buildPhases = (
+				41625BD318CFBF0F00A54C1B /* Sources */,
+				41625BD418CFBF0F00A54C1B /* Frameworks */,
+				41625BD518CFBF0F00A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmppEchoClient;
+			productName = XmppEchoClient;
+			productReference = 41625BD718CFBF0F00A54C1B /* XmppEchoClient */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BE318CFBF2700A54C1B /* MockForController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BEA18CFBF2700A54C1B /* Build configuration list for PBXNativeTarget "MockForController" */;
+			buildPhases = (
+				41625BE018CFBF2700A54C1B /* Sources */,
+				41625BE118CFBF2700A54C1B /* Frameworks */,
+				41625BE218CFBF2700A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockForController;
+			productName = MockForController;
+			productReference = 41625BE418CFBF2700A54C1B /* MockForController */;
+			productType = "com.apple.product-type.tool";
+		};
+		41625BF018CFBF3200A54C1B /* MockForGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41625BF718CFBF3200A54C1B /* Build configuration list for PBXNativeTarget "MockForGame" */;
+			buildPhases = (
+				41625BED18CFBF3200A54C1B /* Sources */,
+				41625BEE18CFBF3200A54C1B /* Frameworks */,
+				41625BEF18CFBF3200A54C1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockForGame;
+			productName = MockForGame;
+			productReference = 41625BF118CFBF3200A54C1B /* MockForGame */;
+			productType = "com.apple.product-type.tool";
+		};
+		41739FFF18C61EB6006E4D51 /* EscPlatform-Import-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4173A00818C61EB6006E4D51 /* Build configuration list for PBXNativeTarget "EscPlatform-Import-Test" */;
+			buildPhases = (
+				41739FFC18C61EB6006E4D51 /* Sources */,
+				41739FFD18C61EB6006E4D51 /* Frameworks */,
+				41739FFE18C61EB6006E4D51 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EscPlatform-Import-Test";
+			productName = "EscPlatform-Import-Test";
+			productReference = 4173A00018C61EB6006E4D51 /* EscPlatform-Import-Test */;
+			productType = "com.apple.product-type.tool";
+		};
+		4174F5F918C26EF0001FC230 /* EscPlatform-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4174F62218C26EF0001FC230 /* Build configuration list for PBXNativeTarget "EscPlatform-OSX" */;
+			buildPhases = (
+				4174F5F518C26EF0001FC230 /* Sources */,
+				4174F5F618C26EF0001FC230 /* Frameworks */,
+				4174F5F718C26EF0001FC230 /* Headers */,
+				4174F5F818C26EF0001FC230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EscPlatform-OSX";
+			productName = EscPlatform;
+			productReference = 4174F5FA18C26EF0001FC230 /* EscPlatform-OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4174F61018C26EF0001FC230 /* EscPlatform-OSX-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4174F62518C26EF0001FC230 /* Build configuration list for PBXNativeTarget "EscPlatform-OSX-Tests" */;
+			buildPhases = (
+				4174F60D18C26EF0001FC230 /* Sources */,
+				4174F60E18C26EF0001FC230 /* Frameworks */,
+				4174F60F18C26EF0001FC230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4174F61618C26EF0001FC230 /* PBXTargetDependency */,
+			);
+			name = "EscPlatform-OSX-Tests";
+			productName = EscPlatformTests;
+			productReference = 4174F61118C26EF0001FC230 /* EscPlatform-OSX-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41E472C618C58343006C9904 /* EscPlatform-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E472E518C58343006C9904 /* Build configuration list for PBXNativeTarget "EscPlatform-iOS" */;
+			buildPhases = (
+				41E472C318C58343006C9904 /* Sources */,
+				41E472C418C58343006C9904 /* Frameworks */,
+				41E472C518C58343006C9904 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EscPlatform-iOS";
+			productName = "EscPlatform-iOS";
+			productReference = 41E472C718C58343006C9904 /* libEscPlatform-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		41E472D418C58343006C9904 /* EscPlatform-iOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E472E818C58343006C9904 /* Build configuration list for PBXNativeTarget "EscPlatform-iOS-Tests" */;
+			buildPhases = (
+				41E472D118C58343006C9904 /* Sources */,
+				41E472D218C58343006C9904 /* Frameworks */,
+				41E472D318C58343006C9904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E472DB18C58343006C9904 /* PBXTargetDependency */,
+			);
+			name = "EscPlatform-iOS-Tests";
+			productName = "EscPlatform-iOSTests";
+			productReference = 41E472D518C58343006C9904 /* EscPlatform-iOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41E472F518C585F3006C9904 /* ESC-Unity-Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E4730018C585F3006C9904 /* Build configuration list for PBXNativeTarget "ESC-Unity-Plugin" */;
+			buildPhases = (
+				41E472F218C585F3006C9904 /* Sources */,
+				41E472F318C585F3006C9904 /* Frameworks */,
+				41E472F418C585F3006C9904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESC-Unity-Plugin";
+			productName = "EscPlatform-Bundle";
+			productReference = 41E472F618C585F3006C9904 /* ESC-Unity-Plugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4174F5F118C26EF0001FC230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = com.esc;
+				TargetAttributes = {
+					4174F61018C26EF0001FC230 = {
+						TestTargetID = 4174F5F918C26EF0001FC230;
+					};
+					41E472D418C58343006C9904 = {
+						TestTargetID = 4174F5F918C26EF0001FC230;
+					};
+				};
+			};
+			buildConfigurationList = 4174F5F418C26EF0001FC230 /* Build configuration list for PBXProject "EscPlatform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4174F5F018C26EF0001FC230;
+			productRefGroup = 4174F5FB18C26EF0001FC230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4174F5F918C26EF0001FC230 /* EscPlatform-OSX */,
+				4174F61018C26EF0001FC230 /* EscPlatform-OSX-Tests */,
+				41E472C618C58343006C9904 /* EscPlatform-iOS */,
+				41E472D418C58343006C9904 /* EscPlatform-iOS-Tests */,
+				41E472F518C585F3006C9904 /* ESC-Unity-Plugin */,
+				41739FFF18C61EB6006E4D51 /* EscPlatform-Import-Test */,
+				41625B9518CFBEC000A54C1B /* Osc-Listener */,
+				41625BA218CFBECC00A54C1B /* Osc-Sender */,
+				41625BAF18CFBEE700A54C1B /* OscPerformanceTest */,
+				41625BBC18CFBEF300A54C1B /* XmppPerformanceTest */,
+				41625BC918CFBF0100A54C1B /* OscEchoClient */,
+				41625BD618CFBF0F00A54C1B /* XmppEchoClient */,
+				41625BE318CFBF2700A54C1B /* MockForController */,
+				41625BF018CFBF3200A54C1B /* MockForGame */,
+				3C5A8BA518DE3074006D688F /* AccountCreationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4174F5F818C26EF0001FC230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4174F60818C26EF0001FC230 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4174F60F18C26EF0001FC230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4174F61D18C26EF0001FC230 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472D318C58343006C9904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472F418C585F3006C9904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E472FE18C585F3006C9904 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5A8BA218DE3074006D688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5A8BB318DE33FC006D688F /* Logger.mm in Sources */,
+				3C5A8BAF18DE33DA006D688F /* AccountEraser.cpp in Sources */,
+				3C5A8BB018DE33DA006D688F /* AccountRegistration.cpp in Sources */,
+				3C5A8BB118DE33DA006D688F /* XmppClient.cpp in Sources */,
+				3C5A8BB218DE33DA006D688F /* XmppListener.cpp in Sources */,
+				3C5A8BA918DE3075006D688F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625B9218CFBEC000A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C5218CFC6D600A54C1B /* IpEndpointName.cpp in Sources */,
+				41625C5318CFC6D600A54C1B /* NetworkingUtils.cpp in Sources */,
+				41625C5418CFC6D600A54C1B /* UdpSocket.cpp in Sources */,
+				41625C5518CFC6D600A54C1B /* OscOutboundPacketStream.cpp in Sources */,
+				41625C5618CFC6D600A54C1B /* OscPrintReceivedElements.cpp in Sources */,
+				41625C5718CFC6D600A54C1B /* OscReceivedElements.cpp in Sources */,
+				41625C5818CFC6D600A54C1B /* OscTypes.cpp in Sources */,
+				41A0249118D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C5918CFC6D600A54C1B /* OscBundle.cpp in Sources */,
+				41625C5A18CFC6D600A54C1B /* OscListener.cpp in Sources */,
+				41625C5B18CFC6D600A54C1B /* OscMessage.cpp in Sources */,
+				41625C5C18CFC6D600A54C1B /* OscSender.cpp in Sources */,
+				41625B9918CFBEC000A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625B9F18CFBECC00A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C4718CFC6BD00A54C1B /* IpEndpointName.cpp in Sources */,
+				41625C4818CFC6BD00A54C1B /* NetworkingUtils.cpp in Sources */,
+				41625C4918CFC6BD00A54C1B /* UdpSocket.cpp in Sources */,
+				41625C4A18CFC6BE00A54C1B /* OscOutboundPacketStream.cpp in Sources */,
+				41625C4B18CFC6BE00A54C1B /* OscPrintReceivedElements.cpp in Sources */,
+				41625C4C18CFC6BE00A54C1B /* OscReceivedElements.cpp in Sources */,
+				41625C4D18CFC6BE00A54C1B /* OscTypes.cpp in Sources */,
+				41A0249218D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C4E18CFC6BE00A54C1B /* OscBundle.cpp in Sources */,
+				41625C4F18CFC6BE00A54C1B /* OscListener.cpp in Sources */,
+				41625C5018CFC6BE00A54C1B /* OscMessage.cpp in Sources */,
+				41625C5118CFC6BE00A54C1B /* OscSender.cpp in Sources */,
+				41625BA618CFBECC00A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BAC18CFBEE700A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C3C18CFC61F00A54C1B /* IpEndpointName.cpp in Sources */,
+				41625C3D18CFC61F00A54C1B /* NetworkingUtils.cpp in Sources */,
+				41625C3E18CFC61F00A54C1B /* UdpSocket.cpp in Sources */,
+				41625C3F18CFC61F00A54C1B /* OscOutboundPacketStream.cpp in Sources */,
+				41625C4018CFC61F00A54C1B /* OscPrintReceivedElements.cpp in Sources */,
+				41625C4118CFC61F00A54C1B /* OscReceivedElements.cpp in Sources */,
+				41625C4218CFC61F00A54C1B /* OscTypes.cpp in Sources */,
+				41A0249318D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C4318CFC61F00A54C1B /* OscBundle.cpp in Sources */,
+				41625C4418CFC61F00A54C1B /* OscListener.cpp in Sources */,
+				41625C4518CFC61F00A54C1B /* OscMessage.cpp in Sources */,
+				41625C4618CFC61F00A54C1B /* OscSender.cpp in Sources */,
+				41625BB318CFBEE700A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BB918CFBEF300A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C2E18CFC55300A54C1B /* AccountRegistration.cpp in Sources */,
+				41A0249418D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C2F18CFC55300A54C1B /* XmppClient.cpp in Sources */,
+				3C5A8B9C18DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				41625C3018CFC55300A54C1B /* XmppListener.cpp in Sources */,
+				41625BC018CFBEF300A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BC618CFBF0100A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C3118CFC59000A54C1B /* IpEndpointName.cpp in Sources */,
+				41625C3218CFC59000A54C1B /* NetworkingUtils.cpp in Sources */,
+				41625C3318CFC59000A54C1B /* UdpSocket.cpp in Sources */,
+				41625C3418CFC59000A54C1B /* OscOutboundPacketStream.cpp in Sources */,
+				41625C3518CFC59000A54C1B /* OscPrintReceivedElements.cpp in Sources */,
+				41625C3618CFC59000A54C1B /* OscReceivedElements.cpp in Sources */,
+				41625C3718CFC59000A54C1B /* OscTypes.cpp in Sources */,
+				41A0249518D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C3818CFC59000A54C1B /* OscBundle.cpp in Sources */,
+				41625C3918CFC59000A54C1B /* OscListener.cpp in Sources */,
+				41625C3A18CFC59000A54C1B /* OscMessage.cpp in Sources */,
+				41625C3B18CFC59000A54C1B /* OscSender.cpp in Sources */,
+				41625BCD18CFBF0100A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BD318CFBF0F00A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C2D18CFC54800A54C1B /* AccountRegistration.cpp in Sources */,
+				41A0249618D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C2B18CFC51B00A54C1B /* XmppClient.cpp in Sources */,
+				41625C2C18CFC51B00A54C1B /* XmppListener.cpp in Sources */,
+				41625BDA18CFBF0F00A54C1B /* main.cpp in Sources */,
+				41B50EE318D0EC79006048EB /* XmppEchoListener.cpp in Sources */,
+				3C5A8B9E18DE17CA006D688F /* AccountEraser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BE018CFBF2700A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C1D18CFC46800A54C1B /* IpEndpointName.cpp in Sources */,
+				41625C1E18CFC46800A54C1B /* NetworkingUtils.cpp in Sources */,
+				41625C1F18CFC46800A54C1B /* UdpSocket.cpp in Sources */,
+				41625C2018CFC46800A54C1B /* OscOutboundPacketStream.cpp in Sources */,
+				41625C2118CFC46800A54C1B /* OscPrintReceivedElements.cpp in Sources */,
+				41625C2218CFC46800A54C1B /* OscReceivedElements.cpp in Sources */,
+				3C5A8B9F18DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				41625C2318CFC46800A54C1B /* OscTypes.cpp in Sources */,
+				41625C2418CFC46800A54C1B /* AccountRegistration.cpp in Sources */,
+				41625C2518CFC46800A54C1B /* OscBundle.cpp in Sources */,
+				41625C2618CFC46800A54C1B /* OscListener.cpp in Sources */,
+				41625C2718CFC46800A54C1B /* OscMessage.cpp in Sources */,
+				41A0249718D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C2818CFC46800A54C1B /* OscSender.cpp in Sources */,
+				41625C2918CFC46800A54C1B /* XmppClient.cpp in Sources */,
+				41625C2A18CFC46800A54C1B /* XmppListener.cpp in Sources */,
+				41625BE718CFBF2700A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41625BED18CFBF3200A54C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41625C1B18CFC42500A54C1B /* AccountRegistration.cpp in Sources */,
+				41A0249818D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41625C0918CFC08800A54C1B /* XmppClient.cpp in Sources */,
+				41625C0A18CFC08800A54C1B /* XmppListener.cpp in Sources */,
+				41625BFA18CFC06900A54C1B /* IpEndpointName.cpp in Sources */,
+				41625BFB18CFC06900A54C1B /* NetworkingUtils.cpp in Sources */,
+				41625BFC18CFC06900A54C1B /* UdpSocket.cpp in Sources */,
+				41625BFD18CFC06900A54C1B /* OscOutboundPacketStream.cpp in Sources */,
+				41625BFE18CFC06900A54C1B /* OscPrintReceivedElements.cpp in Sources */,
+				41625BFF18CFC06900A54C1B /* OscReceivedElements.cpp in Sources */,
+				41B50EE018D0D6CA006048EB /* IosClientMock.cpp in Sources */,
+				41625C0018CFC06900A54C1B /* OscTypes.cpp in Sources */,
+				41625C0118CFC06900A54C1B /* OscBundle.cpp in Sources */,
+				41625C0218CFC06900A54C1B /* OscListener.cpp in Sources */,
+				41625C0318CFC06900A54C1B /* OscMessage.cpp in Sources */,
+				41625C0418CFC06900A54C1B /* OscSender.cpp in Sources */,
+				3C5A8BA018DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				41625BF418CFBF3200A54C1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41739FFC18C61EB6006E4D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4173A01718C62264006E4D51 /* AccountRegistration.cpp in Sources */,
+				41A0249018D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				4173A00918C61EDD006E4D51 /* PluginInterface.mm in Sources */,
+				4173A00A18C61EDD006E4D51 /* XmppClient.cpp in Sources */,
+				4173A00B18C61EDD006E4D51 /* XmppListener.cpp in Sources */,
+				4173A00318C61EB6006E4D51 /* main.cpp in Sources */,
+				3C5A8B9818DE17CA006D688F /* AccountEraser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4174F5F518C26EF0001FC230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E471BF18C57C65006C9904 /* XmppListener.cpp in Sources */,
+				41A0248B18D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				4672C43A19EF114000940C74 /* Reachability.m in Sources */,
+				41E471BC18C57C65006C9904 /* XmppClient.cpp in Sources */,
+				41E471B918C57C65006C9904 /* PluginInterface.mm in Sources */,
+				4174F60C18C26EF0001FC230 /* EscPlatform.m in Sources */,
+				4173A01118C62143006E4D51 /* AccountRegistration.cpp in Sources */,
+				3C5A8B9318DE17CA006D688F /* AccountEraser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4174F60D18C26EF0001FC230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5A8B9418DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				41E471C018C57C65006C9904 /* XmppListener.cpp in Sources */,
+				41E471BD18C57C65006C9904 /* XmppClient.cpp in Sources */,
+				41E471BA18C57C65006C9904 /* PluginInterface.mm in Sources */,
+				41254E0018D9DC6700ABFBD1 /* PdKeychainBindingsController.m in Sources */,
+				41A0248C18D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41254DF118D9DC6700ABFBD1 /* PdKeychainBindings.m in Sources */,
+				4174F61F18C26EF0001FC230 /* EscPlatformTests.m in Sources */,
+				4173A01218C62143006E4D51 /* AccountRegistration.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472C318C58343006C9904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5A8B9518DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				41E472EB18C583BC006C9904 /* PluginInterface.mm in Sources */,
+				41A0248D18D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41E472EC18C583BC006C9904 /* XmppClient.cpp in Sources */,
+				4672C43B19EF114000940C74 /* Reachability.m in Sources */,
+				41254E0118D9DC6700ABFBD1 /* PdKeychainBindingsController.m in Sources */,
+				41E472ED18C583BC006C9904 /* XmppListener.cpp in Sources */,
+				41254DF218D9DC6700ABFBD1 /* PdKeychainBindings.m in Sources */,
+				41E472D018C58343006C9904 /* EscPlatform_iOS.m in Sources */,
+				4173A01318C62143006E4D51 /* AccountRegistration.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472D118C58343006C9904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41254E0218D9DC6700ABFBD1 /* PdKeychainBindingsController.m in Sources */,
+				41A0248E18D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41254DF318D9DC6700ABFBD1 /* PdKeychainBindings.m in Sources */,
+				3C5A8B9618DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				4173A01418C62143006E4D51 /* AccountRegistration.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E472F218C585F3006C9904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4173A01518C62143006E4D51 /* AccountRegistration.cpp in Sources */,
+				41A0248F18D3A4DA00CDD6D4 /* Logger.mm in Sources */,
+				41E4730318C58649006C9904 /* PluginInterface.mm in Sources */,
+				3C5A8B9718DE17CA006D688F /* AccountEraser.cpp in Sources */,
+				41E4730418C58649006C9904 /* XmppClient.cpp in Sources */,
+				41E4730518C58649006C9904 /* XmppListener.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4174F61618C26EF0001FC230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4174F5F918C26EF0001FC230 /* EscPlatform-OSX */;
+			targetProxy = 4174F61518C26EF0001FC230 /* PBXContainerItemProxy */;
+		};
+		41E472DB18C58343006C9904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E472C618C58343006C9904 /* EscPlatform-iOS */;
+			targetProxy = 41E472DA18C58343006C9904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4174F60618C26EF0001FC230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4174F60718C26EF0001FC230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4174F61B18C26EF0001FC230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4174F61C18C26EF0001FC230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41E472FC18C585F3006C9904 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E472FD18C585F3006C9904 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5A8BAD18DE3075006D688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C5A8BAE18DE3075006D688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625B9D18CFBEC000A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625B9E18CFBEC000A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BAA18CFBECC00A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BAB18CFBECC00A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BB718CFBEE800A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BB818CFBEE800A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BC418CFBEF400A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BC518CFBEF400A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BD118CFBF0100A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BD218CFBF0100A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BDE18CFBF0F00A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BDF18CFBF0F00A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BEB18CFBF2700A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BEC18CFBF2700A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/source/\"",
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41625BF818CFBF3200A54C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/extern/\"",
+					"\"$(PRODUCT_DIR)/source/\"",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41625BF918CFBF3200A54C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/extern/\"",
+					"\"$(PRODUCT_DIR)/source/\"",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				OTHER_LDFLAGS = (
+					"\"$(PRODUCT_DIR)/lib/macosx/libgloox-libc++.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libssl.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libcrypto.a\"",
+					"\"$(PRODUCT_DIR)/lib/macosx/libz.a\"",
+					/usr/lib/libresolv.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4173A00618C61EB6006E4D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PRODUCT_DIR)/extern",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebjohnston/Development/esc-platform/product/lib/macosx",
+					"$(PRODUCT_DIR)/lib/macosx",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4173A00718C61EB6006E4D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PRODUCT_DIR)/extern",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebjohnston/Development/esc-platform/product/lib/macosx",
+					"$(PRODUCT_DIR)/lib/macosx",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4174F62018C26EF0001FC230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"../../extern\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_DIR = ../..;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		4174F62118C26EF0001FC230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"../../extern\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_DIR = ../..;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		4174F62318C26EF0001FC230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform/EscPlatform-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				INFOPLIST_FILE = "EscPlatform/EscPlatform-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PRODUCT_DIR)/lib/macosx",
+					"/Users/calebjohnston/Development/esc-platform/product/lib/macosx",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4174F62418C26EF0001FC230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform/EscPlatform-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				INFOPLIST_FILE = "EscPlatform/EscPlatform-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PRODUCT_DIR)/lib/macosx",
+					"/Users/calebjohnston/Development/esc-platform/product/lib/macosx",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4174F62618C26EF0001FC230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EscPlatform-OSX.framework/Versions/A/EscPlatform-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform/EscPlatform-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EscPlatformTests/EscPlatformTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebjohnston/Development/esc-platform/product/lib/macosx",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4174F62718C26EF0001FC230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EscPlatform-OSX.framework/Versions/A/EscPlatform-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform/EscPlatform-Prefix.pch";
+				INFOPLIST_FILE = "EscPlatformTests/EscPlatformTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/calebjohnston/Development/esc-platform/product/lib/macosx",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		41E472E618C58343006C9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/EscPlatform_iOS.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform-iOS/EscPlatform-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PRODUCT_DIR)/extern/\"/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PRODUCT_DIR)/lib/ios",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib",
+				);
+				OTHER_CFLAGS = "-DTARGET_IOS";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_DIR = ../..;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		41E472E718C58343006C9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/EscPlatform_iOS.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform-iOS/EscPlatform-iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PRODUCT_DIR)/extern/\"/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PRODUCT_DIR)/lib/ios",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib",
+				);
+				OTHER_CFLAGS = "-DTARGET_IOS";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_DIR = ../..;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E472E918C58343006C9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EscPlatform-OSX.framework/Versions/A/EscPlatform-OSX";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform-iOS/EscPlatform-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EscPlatform-iOSTests/EscPlatform-iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41E472EA18C58343006C9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EscPlatform-OSX.framework/Versions/A/EscPlatform-OSX";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform-iOS/EscPlatform-iOS-Prefix.pch";
+				INFOPLIST_FILE = "EscPlatform-iOSTests/EscPlatform-iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		41E4730118C585F3006C9904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform-Bundle/EscPlatform-Bundle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				INFOPLIST_FILE = "EscPlatform-Bundle/EscPlatform-Bundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PRODUCT_DIR)/lib/macosx",
+					"$(PRODUCT_DIR)/lib/macosx",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		41E4730218C585F3006C9904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EscPlatform-Bundle/EscPlatform-Bundle-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PRODUCT_DIR)/extern/\"",
+				);
+				INFOPLIST_FILE = "EscPlatform-Bundle/EscPlatform-Bundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PRODUCT_DIR)/lib/macosx",
+					"$(PRODUCT_DIR)/lib/macosx",
+				);
+				OTHER_CFLAGS = "-DTARGET_OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5A8BAC18DE3075006D688F /* Build configuration list for PBXNativeTarget "AccountCreationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5A8BAD18DE3075006D688F /* Debug */,
+				3C5A8BAE18DE3075006D688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625B9C18CFBEC000A54C1B /* Build configuration list for PBXNativeTarget "Osc-Listener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625B9D18CFBEC000A54C1B /* Debug */,
+				41625B9E18CFBEC000A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BA918CFBECC00A54C1B /* Build configuration list for PBXNativeTarget "Osc-Sender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BAA18CFBECC00A54C1B /* Debug */,
+				41625BAB18CFBECC00A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BB618CFBEE800A54C1B /* Build configuration list for PBXNativeTarget "OscPerformanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BB718CFBEE800A54C1B /* Debug */,
+				41625BB818CFBEE800A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BC318CFBEF400A54C1B /* Build configuration list for PBXNativeTarget "XmppPerformanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BC418CFBEF400A54C1B /* Debug */,
+				41625BC518CFBEF400A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BD018CFBF0100A54C1B /* Build configuration list for PBXNativeTarget "OscEchoClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BD118CFBF0100A54C1B /* Debug */,
+				41625BD218CFBF0100A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BDD18CFBF0F00A54C1B /* Build configuration list for PBXNativeTarget "XmppEchoClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BDE18CFBF0F00A54C1B /* Debug */,
+				41625BDF18CFBF0F00A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BEA18CFBF2700A54C1B /* Build configuration list for PBXNativeTarget "MockForController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BEB18CFBF2700A54C1B /* Debug */,
+				41625BEC18CFBF2700A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41625BF718CFBF3200A54C1B /* Build configuration list for PBXNativeTarget "MockForGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41625BF818CFBF3200A54C1B /* Debug */,
+				41625BF918CFBF3200A54C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4173A00818C61EB6006E4D51 /* Build configuration list for PBXNativeTarget "EscPlatform-Import-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4173A00618C61EB6006E4D51 /* Debug */,
+				4173A00718C61EB6006E4D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4174F5F418C26EF0001FC230 /* Build configuration list for PBXProject "EscPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4174F62018C26EF0001FC230 /* Debug */,
+				4174F62118C26EF0001FC230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4174F62218C26EF0001FC230 /* Build configuration list for PBXNativeTarget "EscPlatform-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4174F62318C26EF0001FC230 /* Debug */,
+				4174F62418C26EF0001FC230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4174F62518C26EF0001FC230 /* Build configuration list for PBXNativeTarget "EscPlatform-OSX-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4174F62618C26EF0001FC230 /* Debug */,
+				4174F62718C26EF0001FC230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E472E518C58343006C9904 /* Build configuration list for PBXNativeTarget "EscPlatform-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E472E618C58343006C9904 /* Debug */,
+				41E472E718C58343006C9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E472E818C58343006C9904 /* Build configuration list for PBXNativeTarget "EscPlatform-iOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E472E918C58343006C9904 /* Debug */,
+				41E472EA18C58343006C9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E4730018C585F3006C9904 /* Build configuration list for PBXNativeTarget "ESC-Unity-Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E4730118C585F3006C9904 /* Debug */,
+				41E4730218C585F3006C9904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4174F5F118C26EF0001FC230 /* Project object */;
+}
